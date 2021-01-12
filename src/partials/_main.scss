@@ -1,0 +1,9 @@
+main{
+  width: 100%;
+  height: calc(100% - #{$headerHeight + $footerHeight});
+  #main_top{
+    background-image: url('/Users/leonardocapogna/Desktop/Boolean/proj-html-vuejs/img/home_slider.jpg');
+    background-size: cover;
+
+  }
+}
