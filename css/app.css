@@ -6,6 +6,7 @@
 
 body {
   background-color: #2d2d45;
+  overflow: scroll;
 }
 
 header {
@@ -38,6 +39,12 @@ main #main_top {
   width: 100%;
   background-image: url("../img/home_slider.jpg");
   background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main #main_top .header_title {
+  color: #fefefe;
 }
 
 footer {
