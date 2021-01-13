@@ -26,6 +26,23 @@ main{
     #header_button button{
       margin: 30px 5px 30px 5px;
     }
+    .button_pink{
+      background-color: #ea4a56;
+      color: #fefefe;
+      &:hover{
+        background-color: #fefefe;
+        color: black;
+      }
+    }
+    .button_white{
+      background-color: rgba(0, 0, 0, 0);
+      border: 1px solid #fefefe;
+      color: #fefefe;
+      &:hover{
+        background-color: #fefefe;
+        color: black;
+      }
+    }
     // /MAIN TOP
   }
 }

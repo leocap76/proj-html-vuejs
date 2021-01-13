@@ -18,6 +18,7 @@ button {
   cursor: pointer;
   text-transform: uppercase;
   padding: 10px 20px 10px 20px;
+  border: none;
 }
 
 header {
@@ -69,6 +70,23 @@ main #main_top .header_title p {
 }
 main #main_top #header_button button {
   margin: 30px 5px 30px 5px;
+}
+main #main_top .button_pink {
+  background-color: #ea4a56;
+  color: #fefefe;
+}
+main #main_top .button_pink:hover {
+  background-color: #fefefe;
+  color: black;
+}
+main #main_top .button_white {
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid #fefefe;
+  color: #fefefe;
+}
+main #main_top .button_white:hover {
+  background-color: #fefefe;
+  color: black;
 }
 
 footer {
