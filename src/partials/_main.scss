@@ -43,6 +43,44 @@ main{
         color: black;
       }
     }
-    // /MAIN TOP
   }
+ // /MAIN TOP
+
+    // main MUSIC IS LIFE
+  #main_music_is_life{
+    height: 370px;
+    width: 100%;
+    background-color: #323844;
+    color: #fefefe;
+
+    .main_music_is_life-text{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      padding-top: 30px;
+    }
+    .main_music_is_life-text h2{
+      font-size: 60px;
+      padding: 25px;
+    }
+    .blu_line{
+      width: 300px;
+      height: 2px;
+      background-color: #7780a4;
+      margin-bottom: 40px;
+    }
+    .main_music_is_life-text p{
+      color: #737376;
+    }
+    .pink_box{
+      width: 500px;
+      height: 15px;
+      background-color: #ea4a56;
+      top: 0;
+      margin-left: 470px;;
+    }
+  }
+
+    // /main MUSIC IS LIFE
 }
