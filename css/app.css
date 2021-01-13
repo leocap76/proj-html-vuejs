@@ -9,6 +9,17 @@ body {
   overflow: scroll;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Open Sans", sans-serif;
+}
+
+button {
+  font-family: "Nanum Gothic", sans-serif;
+  cursor: pointer;
+  text-transform: uppercase;
+  padding: 10px 20px 10px 20px;
+}
+
 header {
   display: flex;
   justify-content: space-between;
@@ -42,9 +53,22 @@ main #main_top {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+  text-align: center;
 }
 main #main_top .header_title {
   color: #fefefe;
+}
+main #main_top .header_title h1 {
+  font-size: 100px;
+}
+main #main_top .header_title p {
+  font-family: "Fraunces", serif;
+  font-size: 20px;
+  padding: 20px;
+}
+main #main_top #header_button button {
+  margin: 30px 5px 30px 5px;
 }
 
 footer {
