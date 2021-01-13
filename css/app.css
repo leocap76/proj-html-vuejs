@@ -26,7 +26,7 @@ header {
   align-items: center;
   position: fixed;
   width: 100%;
-  height: 60px;
+  height: 100px;
   background-color: #2d2d45 0.5;
 }
 header .header_left a img {
@@ -35,15 +35,15 @@ header .header_left a img {
   padding-left: 45px;
   padding-top: 5px;
 }
-header .header_right a i {
+header .hamburger {
   color: #fefefe;
-  padding-right: 50px;
-  margin: 5px;
+  padding: 50px 20px 50px 20px;
+  width: 60%;
 }
 
 main {
   width: 100%;
-  height: calc(100% - 520px);
+  height: calc(100% - 560px);
 }
 main #main_top {
   height: 100vh;
