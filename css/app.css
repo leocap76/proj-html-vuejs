@@ -10,7 +10,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 button {
@@ -94,14 +94,14 @@ main #main_music_is_life {
   background-color: #323844;
   color: #fefefe;
 }
-main #main_music_is_life .main_music_is_life-text {
+main #main_music_is_life .main_music-text {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   padding-top: 30px;
 }
-main #main_music_is_life .main_music_is_life-text h2 {
+main #main_music_is_life .main_music-text h2 {
   font-size: 60px;
   padding: 25px;
 }
@@ -111,7 +111,7 @@ main #main_music_is_life .blu_line {
   background-color: #7780a4;
   margin-bottom: 40px;
 }
-main #main_music_is_life .main_music_is_life-text p {
+main #main_music_is_life .main_music-text p {
   color: #737376;
 }
 main #main_music_is_life .pink_box {
@@ -120,6 +120,110 @@ main #main_music_is_life .pink_box {
   background-color: #ea4a56;
   top: 0;
   margin-left: 470px;
+}
+main #latest_band_news {
+  width: 100%;
+  height: 1870px;
+  background-color: #292d39;
+}
+main #latest_band_news .main_music-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 30px;
+}
+main #latest_band_news .main_music-text h2 {
+  font-size: 60px;
+  padding: 25px;
+  color: #fefefe;
+}
+main #latest_band_news .blu_line {
+  width: 300px;
+  height: 2px;
+  background-color: #7780a4;
+  margin-bottom: 40px;
+}
+main #latest_band_news .main_music-text p {
+  color: #737376;
+}
+main #img_slot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+main #img_slot .img_slot_left {
+  width: 820px;
+  height: 1400px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+main #img_slot .img_slot_left .oriz_slot {
+  height: 325px;
+  width: 800px;
+  background-color: #323844;
+  margin: 5px;
+}
+main #img_slot .img_slot_left .oriz_slot img {
+  height: 200px;
+}
+main #img_slot .img_slot_left .oriz_slot p {
+  color: #737376;
+  padding: 10px;
+}
+main #img_slot .img_slot_left .oriz_slot h4 {
+  color: #ea4a56;
+  padding: 10px;
+}
+main #img_slot .guitar_and_sounds .vertical_slot {
+  width: 390px;
+  height: 680px;
+  background-color: #323844;
+  margin: 10px;
+}
+main #img_slot .guitar_and_sounds .vertical_slot img {
+  width: 390px;
+}
+main #img_slot .guitar_and_sounds .vertical_slot p {
+  color: #737376;
+  padding: 10px;
+}
+main #img_slot .guitar_and_sounds .vertical_slot h4 {
+  color: #ea4a56;
+  padding: 10px;
+}
+main #img_slot .guitar_and_sounds {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main #img_slot .img_slot_right {
+  width: 400px;
+  height: 1400px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+main #img_slot .img_slot_right .vertical_slot {
+  width: 390px;
+  height: 680px;
+  background-color: #323844;
+  margin: 10px;
+}
+main #img_slot .img_slot_right .vertical_slot img {
+  width: 390px;
+}
+main #img_slot .img_slot_right .vertical_slot p {
+  color: #737376;
+  padding: 10px;
+}
+main #img_slot .img_slot_right .vertical_slot h4 {
+  color: #ea4a56;
+  padding: 10px;
 }
 
 footer {

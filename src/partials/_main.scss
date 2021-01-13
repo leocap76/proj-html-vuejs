@@ -53,14 +53,14 @@ main{
     background-color: #323844;
     color: #fefefe;
 
-    .main_music_is_life-text{
+    .main_music-text{
       display: flex;
       justify-content: center;
       align-items: center;
       flex-direction: column;
       padding-top: 30px;
     }
-    .main_music_is_life-text h2{
+    .main_music-text h2{
       font-size: 60px;
       padding: 25px;
     }
@@ -70,7 +70,7 @@ main{
       background-color: #7780a4;
       margin-bottom: 40px;
     }
-    .main_music_is_life-text p{
+    .main_music-text p{
       color: #737376;
     }
     .pink_box{
@@ -81,6 +81,118 @@ main{
       margin-left: 470px;;
     }
   }
-
     // /main MUSIC IS LIFE
+
+   // MAIN Latest Band News
+  #latest_band_news{
+    width: 100%;
+    height: 1870px;
+    background-color: #292d39;
+    .main_music-text{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      padding-top: 30px;
+    }
+    .main_music-text h2{
+      font-size: 60px;
+      padding: 25px;
+      color: #fefefe;
+    }
+    .blu_line{
+      width: 300px;
+      height: 2px;
+      background-color: #7780a4;
+      margin-bottom: 40px;
+    }
+    .main_music-text p{
+      color: #737376;
+    }
+  }
+  // img slot
+  #img_slot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+
+    .img_slot_left{
+      width: 820px;
+      height: 1400px;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-direction: column;
+
+    }
+    .img_slot_left .oriz_slot{
+      height: 325px;
+      width: 800px;
+      background-color: #323844;
+      margin: 5px;
+    }
+    .img_slot_left .oriz_slot img{
+      height: 200px;
+    }
+    .img_slot_left .oriz_slot p{
+      color: #737376;
+      padding: 10px;
+    }
+    .img_slot_left .oriz_slot h4{
+      color: $imgSlotTitle;
+      padding: 10px;
+    }
+    .guitar_and_sounds .vertical_slot{
+      width: 390px;
+      height: 680px;
+      background-color: #323844;
+      margin: 10px;
+    }
+    .guitar_and_sounds .vertical_slot img{
+      width: 390px;
+    }
+    .guitar_and_sounds .vertical_slot p{
+      color: #737376;
+      padding: 10px;
+    }
+    .guitar_and_sounds .vertical_slot h4{
+      color: $imgSlotTitle;
+      padding: 10px;
+    }
+    .guitar_and_sounds{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .img_slot_right{
+      width: 400px;
+      height: 1400px;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-direction: column;
+
+    }
+    .img_slot_right .vertical_slot{
+      width: 390px;
+      height: 680px;
+      background-color: #323844;
+      margin: 10px;
+    }
+    .img_slot_right .vertical_slot img{
+      width: 390px;
+    }
+    .img_slot_right .vertical_slot p{
+      color: #737376;
+      padding: 10px;
+    }
+    .img_slot_right .vertical_slot h4{
+      color: $imgSlotTitle;
+      padding: 10px;
+    }
+  }
+  // img slot
+
+   // /MAIN Latest Band News
 }
