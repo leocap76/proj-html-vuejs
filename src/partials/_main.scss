@@ -242,7 +242,67 @@ main{
     align-items: center;
     background-color: #ea4a56;
     color: #fefefe;
+    cursor: pointer;
+    &:hover{
+      background-color: #fefefe;
+      color: black;
+    }
   }
   // /div rosa
+
+  // LAST slot
+  #last_slot{
+    width: 100%;
+    height: calc($lastSlotTopHeight + $lastSlotBottomHeight);
+
+
+    .last_slot_top{
+      width: 100%;
+      height: $lastSlotTopHeight;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      text-align:center;
+      background-image: url('../img/home-testimonial-parallax.jpg');
+      p{
+        color: #aeaeaf;
+        font-family: 'Fraunces', serif;
+        font-size: 25px;
+        padding: 20px;
+      }
+      img{
+        cursor: pointer;
+        margin: 30px;
+      }
+    }
+    .last_slot_bottom{
+      width: 100%;
+      height: $lastSlotBottomHeight;
+      background-color: #292d39;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-direction: column;
+    }
+    #festival_slots{
+      width: 1300px;
+      height: 320px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      background-color: yellow;
+
+      .festival_slots{
+        width: 1250px;
+        height: 55px;
+        margin: 10px;
+        background-color: #323844;
+      }
+    }
+  }
+  // /LAST slot
+
    // /MAIN Latest Band News
 }
