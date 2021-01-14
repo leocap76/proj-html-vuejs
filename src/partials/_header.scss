@@ -5,7 +5,7 @@ header {
   position: fixed;
   width: 100%;
   height: $headerHeight;
-  background-color: $headerGrey 0.5;
+  background-color: rgba(0, 0, 0, 0);
 
   .header_left a img{
     width: 70%;
