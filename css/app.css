@@ -316,9 +316,8 @@ main #last_slot #festival_slots {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-color: yellow;
 }
-main #last_slot #festival_slots .festival_slots {
+main #last_slot #festival_slots .festival_slot {
   width: 1250px;
   height: 55px;
   margin: 10px;
