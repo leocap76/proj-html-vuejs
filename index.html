@@ -19,10 +19,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
     <title>Music</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
   </head>
   <body>
     <div class="container">
-      <!-- header -->
+      <!-- HEADER -->
       <header>
 
         <div class="header_left">
@@ -30,13 +31,27 @@
         </div>
 
         <div class="header_right">
-          <a href="#"><img src="img/hamburger-menu.png" class="hamburger" alt="menu"></a>
+          <a href="#" ><img src="img/hamburger-menu.png" class="hamburger" alt="menu"></a>
         </div>
 
       </header>
-      <!-- /header -->
 
-      <!-- main -->
+      <div class="hamburger-menu">
+        <div class="hamburger-menu_top">
+          <img src="img/avada-music-logo.png" alt="">
+          <i class="fas fa-times"></i>
+        </div>
+        <nav class="menu">
+          <a href="#">Menu</a>
+          <a href="#">Meet The Brand</a>
+          <a href="#">Live Dates</a>
+          <a href="#">Latest News</a>
+          <a href="#">Fans</a>
+        </nav>
+      </div>
+      <!-- /HEADER -->
+
+      <!-- MAIN -->
       <main>
         <!-- main top -->
         <div id="main_top">
@@ -181,9 +196,9 @@
         </div>
         <!-- /main Latest Band News -->
       </main>
-      <!-- /main -->
+      <!-- /MAIN -->
 
-      <!-- footer -->
+      <!-- FOOTER -->
       <footer>
         <div id="footer_top">
           <div class="footer_top_left">
@@ -231,7 +246,10 @@
           </div>
         </div>
       </footer>
-      <!-- /footer -->
+      <!-- /FOOTER -->
     </div>
   </body>
+  <script src="js/script.js" charset="utf-8"></script>
+
+  </script>
 </html>
