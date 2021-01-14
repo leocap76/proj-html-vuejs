@@ -20,6 +20,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
     <title>Music</title>
     <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   </head>
   <body>
     <div class="container">
@@ -42,11 +43,13 @@
           <i class="fas fa-times"></i>
         </div>
         <nav class="menu">
-          <a href="#">Menu</a>
-          <a href="#">Meet The Brand</a>
-          <a href="#">Live Dates</a>
-          <a href="#">Latest News</a>
-          <a href="#">Fans</a>
+          <ul #header>
+            <a href="google.it" v-for="link in links" > {{ link }} </a>
+            <!-- <a href="#">Meet The Brand</a>
+            <a href="#">Live Dates</a>
+            <a href="#">Latest News</a>
+            <a href="#">Fans</a> -->
+          </ul>
         </nav>
       </div>
       <!-- /HEADER -->
@@ -208,11 +211,10 @@
           <div class="footer_top_right">
             <ul>
               <li>Menu</li>
-              <li>Menu</li>
-              <li>Menu</li>
-              <li>Menu</li>
-              <li>Menu</li>
-              <li>Menu</li>
+              <li>Meet The Brand</li>
+              <li>Live Dates</li>
+              <li>Latest News</li>
+              <li>Fans</li>
             </ul>
           </div>
         </div>
@@ -220,28 +222,22 @@
         <div id="footer_bottom">
           <div class="footer_bottom_left">
             <ul>
-              <li>Menu</li>
+              <li>@ Copyright 2012 - 2020</li>
               <li>|</li>
-              <li>Menu</li>
+              <li>Avada Theme by Themefusion</li>
               <li>|</li>
-              <li>Menu</li>
+              <li>all rights reserved</li>
               <li>|</li>
-              <li>Menu</li>
-              <li>|</li>
-              <li>Menu</li>
-              <li>|</li>
-              <li>Menu</li>
+              <li>powered by wordpress</li>
             </ul>
           </div>
 
           <div class="footer_bottom_right">
             <ul>
-              <li>Menu</li>
-              <li>Menu</li>
-              <li>Menu</li>
-              <li>Menu</li>
-              <li>Menu</li>
-              <li>Menu</li>
+              <li><a><i class="fab fa-facebook-f"></i></a></li>
+              <li><a><i class="fab fa-twitter"></i></a></li>
+              <li><a><i class="fab fa-instagram"></i></a></li>
+              <li><a><i class="fab fa-youtube"></i></a></li>
             </ul>
           </div>
         </div>

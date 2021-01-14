@@ -24,7 +24,7 @@ header {
   }
 }
 .hamburger-menu{
-  visibility: hidden;
+  display: none;
   position: fixed;
   margin-top: 50px;
     width: 100%;
@@ -56,16 +56,19 @@ header {
       align-items: center;
       flex-direction: column;
       margin-top: 60px;
-      a{
-        color: #f8959e;
-        font-size: 25px;
-        text-decoration: none;
-        font-family: 'Montserrat', sans-serif;
-        padding: 25px;
-        &:hover{
-          color: #fefefe;
-          font-weight: bold;
+      ul{
+        a{
+          color: #f8959e;
+          font-size: 25px;
+          text-decoration: none;
+          font-family: 'Montserrat', sans-serif;
+          padding: 25px;
+          &:hover{
+            color: #fefefe;
+            font-weight: bold;
+          }
         }
       }
+
     }
 }

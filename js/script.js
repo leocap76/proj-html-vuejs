@@ -4,11 +4,11 @@
 //
 //     },
 //     methods: {
-//       addList: function() {
+//       openMenu: function() {
 //         this.list.push(this.newItem);
 //         this.newItem = '';
 //       },
-//       removeList: function(index) {
+//       closeMenu: function(index) {
 //        this.list.splice(index,1);
 //       },
 //       updateHover: function(indexHover){
@@ -17,14 +17,32 @@
 //   }
 // });
 
-var hamburgerMenu = $("img/hamburger-menu.png");
+var hamburgerMenu = $(".hamburger");
 
 hamburgerMenu.click(function() {
     $(".hamburger-menu").show(300);
+    console.log('open');
   });
 
 var closeMenu = $(".fa-times");
 
 closeMenu.click(function() {
     $(".hamburger-menu").hide(300);
+    console.log('close');
+  });
+// _____________________________________________________
+// _______________VUE___________________________________
+
+
+  let app = new Vue({
+   el: "#header",
+   data: {
+     links: [
+       'Menu',
+       'Meet The Brand',
+       'Live Dates',
+       'Latest News',
+       'Fans'
+     ],
+   }
   });
