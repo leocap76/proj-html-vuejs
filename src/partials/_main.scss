@@ -278,7 +278,7 @@ main{
       img{
         cursor: pointer;
         margin: 30px;
-        
+
       }
     }
     .last_slot_bottom{
@@ -310,6 +310,10 @@ main{
         font-family: 'Montserrat', sans-serif;
         &:hover{
           background-color: #323848;
+          
+          // height: 400px;
+          // transition: height 1s;
+          // display: none;
         }
         a{
           color: #aeaeaf;
