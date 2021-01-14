@@ -242,10 +242,14 @@ main{
     align-items: center;
     background-color: #ea4a56;
     color: #fefefe;
+    font-family: 'Montserrat', sans-serif;
     cursor: pointer;
+    text-transform: uppercase;
     &:hover{
+      font-family: 'Montserrat', sans-serif;
       background-color: #fefefe;
       color: black;
+      text-transform: uppercase;
     }
   }
   // /div rosa
@@ -294,10 +298,35 @@ main{
       flex-direction: column;
 
       .festival_slot{
+        cursor: pointer;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
         width: 1250px;
         height: 55px;
         margin: 10px;
         background-color: #323844;
+        font-family: 'Montserrat', sans-serif;
+        &:hover{
+          background-color: #323848;
+        }
+        a{
+          color: #aeaeaf;
+          padding: 0 10px 0 10px;
+          margin-left: 30px;
+          font-size: 25px;
+          font-weight: bold;
+          cursor: pointer;
+          text-decoration: none;
+          &:hover{
+            background: #ea4a56;
+          }
+        }
+        p{
+          text-transform: uppercase;
+          color: #ea4a56;
+          margin-left: 25px;
+        }
       }
     }
   }

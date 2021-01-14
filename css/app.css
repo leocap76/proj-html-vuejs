@@ -270,11 +270,15 @@ main #pink_section {
   align-items: center;
   background-color: #ea4a56;
   color: #fefefe;
+  font-family: "Montserrat", sans-serif;
   cursor: pointer;
+  text-transform: uppercase;
 }
 main #pink_section:hover {
+  font-family: "Montserrat", sans-serif;
   background-color: #fefefe;
   color: black;
+  text-transform: uppercase;
 }
 main #last_slot {
   width: 100%;
@@ -318,10 +322,35 @@ main #last_slot #festival_slots {
   flex-direction: column;
 }
 main #last_slot #festival_slots .festival_slot {
+  cursor: pointer;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
   width: 1250px;
   height: 55px;
   margin: 10px;
   background-color: #323844;
+  font-family: "Montserrat", sans-serif;
+}
+main #last_slot #festival_slots .festival_slot:hover {
+  background-color: #323848;
+}
+main #last_slot #festival_slots .festival_slot a {
+  color: #aeaeaf;
+  padding: 0 10px 0 10px;
+  margin-left: 30px;
+  font-size: 25px;
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: none;
+}
+main #last_slot #festival_slots .festival_slot a:hover {
+  background: #ea4a56;
+}
+main #last_slot #festival_slots .festival_slot p {
+  text-transform: uppercase;
+  color: #ea4a56;
+  margin-left: 25px;
 }
 
 footer {
