@@ -20,14 +20,14 @@
 var hamburgerMenu = $(".hamburger");
 
 hamburgerMenu.click(function() {
-    $(".hamburger-menu").show(300);
+    $(".hamburger-menu").slideToggle(300);
     console.log('open');
   });
 
 var closeMenu = $(".x_close");
 
 closeMenu.click(function() {
-    $(".hamburger-menu").hide(300);
+    $(".hamburger-menu").slideUp(300);
     console.log('close');
   });
 // _____________________________________________________
