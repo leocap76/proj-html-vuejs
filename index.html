@@ -4,7 +4,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- CSS -->
     <link rel="stylesheet" href="css/app.css">
+    <!-- GOOGLE FONT -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
@@ -19,7 +21,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
     <title>Music</title>
+    <!-- VUE -->
     <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+    <!-- JQUERY -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   </head>
   <body>
@@ -43,8 +47,8 @@
           <i class="fas fa-times"></i>
         </div>
         <nav class="menu">
-          <ul #header>
-            <a href="google.it" v-for="link in links" > {{ link }} </a>
+          <ul #app>
+            <a href="google.it" v-for="link in links"> {{ link }} </a>
             <!-- <a href="#">Meet The Brand</a>
             <a href="#">Live Dates</a>
             <a href="#">Latest News</a>
@@ -90,7 +94,7 @@
           <!-- slot immagini -->
           <div id="img_slot">
             <div class="img_slot_left">
-              <div class="oriz_slot_top">
+              <div class="oriz_slot_top" class="pink_slot_hover_oriz">
                 <!-- <img src="img/blog_music_techo-800x400.jpg" alt=""> -->
                 <div class="oriz_slot_top_text">
                 <h4>Technology and music</h4>
@@ -109,7 +113,7 @@
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum finibus cursus egestas.</p>
                 </div>
               </div>
-              <div class="oriz_slot_bottom">
+              <div class="oriz_slot_bottom" class="pink_slot_hover_oriz">
                 <!-- <img src="img/blog_flavor_rock-800x400.jpg" alt=""> -->
                 <div class="oriz_slot_bottom_text">
                 <h4>Technology and music</h4>
@@ -119,12 +123,12 @@
             </div>
 
             <div class="img_slot_right">
-              <div class="vertical_slot">
+              <div class="vertical_slot" class="pink_slot_hover_vertical">
                 <img src="img/blog-post1-600x900.jpg" alt="">
                 <h4>Technology and music</h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum finibus cursus egestas.</p>
               </div>
-              <div class="vertical_slot">
+              <div class="vertical_slot" class="pink_slot_hover_vertical">
                 <img src="img/blog-post2-600x900.jpg" alt="">
                 <h4>Technology and music</h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum finibus cursus egestas.</p>

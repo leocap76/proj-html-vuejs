@@ -35,7 +35,7 @@ closeMenu.click(function() {
 
 
   let app = new Vue({
-   el: "#header",
+   el: '#app',
    data: {
      links: [
        'Menu',
