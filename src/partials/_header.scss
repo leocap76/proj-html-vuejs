@@ -35,21 +35,17 @@ header {
       display: flex;
       justify-content: space-between;
       align-items: center;
-      img{
-        padding: 20px;
-        cursor: pointer;
-      }
-      i{
-        padding: 40px;
-        font-size: 25px;
-        color: #f8959e;
-        cursor: pointer;
-        &:hover{
-          color: #fefefe;
-          font-weight: bold;
+        img{
+          padding: 20px;
+          cursor: pointer;
         }
-      }
+        .x_close{
+          width: 90px;
+          margin-right: 20px;
+        }
     }
+
+
     .menu{
       display: flex;
       justify-content: space-around;
@@ -57,15 +53,19 @@ header {
       flex-direction: column;
       margin-top: 60px;
       ul{
-        a{
-          color: #f8959e;
-          font-size: 25px;
-          text-decoration: none;
-          font-family: 'Montserrat', sans-serif;
-          padding: 25px;
-          &:hover{
-            color: #fefefe;
-            font-weight: bold;
+        li{
+          list-style: none;
+
+          a{
+            color: #f8959e;
+            font-size: 25px;
+            text-decoration: none;
+            font-family: 'Montserrat', sans-serif;
+            padding: 25px;
+            &:hover{
+              color: #fefefe;
+              font-weight: bold;
+            }
           }
         }
       }

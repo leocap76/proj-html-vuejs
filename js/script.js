@@ -24,7 +24,7 @@ hamburgerMenu.click(function() {
     console.log('open');
   });
 
-var closeMenu = $(".fa-times");
+var closeMenu = $(".x_close");
 
 closeMenu.click(function() {
     $(".hamburger-menu").hide(300);

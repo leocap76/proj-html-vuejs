@@ -59,15 +59,9 @@ header .hamburger {
   padding: 20px;
   cursor: pointer;
 }
-.hamburger-menu .hamburger-menu_top i {
-  padding: 40px;
-  font-size: 25px;
-  color: #f8959e;
-  cursor: pointer;
-}
-.hamburger-menu .hamburger-menu_top i:hover {
-  color: #fefefe;
-  font-weight: bold;
+.hamburger-menu .hamburger-menu_top .x_close {
+  width: 90px;
+  margin-right: 20px;
 }
 .hamburger-menu .menu {
   display: flex;
@@ -76,14 +70,17 @@ header .hamburger {
   flex-direction: column;
   margin-top: 60px;
 }
-.hamburger-menu .menu ul a {
+.hamburger-menu .menu ul li {
+  list-style: none;
+}
+.hamburger-menu .menu ul li a {
   color: #f8959e;
   font-size: 25px;
   text-decoration: none;
   font-family: "Montserrat", sans-serif;
   padding: 25px;
 }
-.hamburger-menu .menu ul a:hover {
+.hamburger-menu .menu ul li a:hover {
   color: #fefefe;
   font-weight: bold;
 }
