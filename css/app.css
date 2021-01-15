@@ -469,6 +469,7 @@ footer #footer_top .footer_top_right ul {
   margin-right: 30px;
 }
 footer #footer_top .footer_top_right ul li {
+  cursor: pointer;
   display: inline-block;
   padding: 10px;
 }
@@ -492,6 +493,7 @@ footer #footer_bottom .footer_bottom_left ul {
   font-size: 10px;
 }
 footer #footer_bottom .footer_bottom_left ul li {
+  cursor: pointer;
   display: inline-block;
   padding: 2px;
   font-size: 9px;
