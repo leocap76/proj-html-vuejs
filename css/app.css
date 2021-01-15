@@ -505,13 +505,14 @@ footer #footer_bottom .footer_bottom_left ul li:first-child {
 footer #footer_bottom .footer_bottom_right ul {
   list-style: none;
   color: #aeaeaf;
-  margin-right: 30px;
+  margin-right: 40px;
 }
 footer #footer_bottom .footer_bottom_right ul li {
   display: inline-block;
   padding: 18px;
   width: 50px;
   height: 50px;
+  margin-left: 10px;
   background-color: #323844;
 }
 footer #footer_bottom .footer_bottom_right ul li:hover {
